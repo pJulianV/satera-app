@@ -9,14 +9,6 @@ services:
     startCommand: npm start
     envVars:
       - key: MONGODB_URI
-        value: mongodb+srv://pjuliandvargas:0S1fAYbY08bXqijB@cluster0.sa9c5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        value: "mongodb+srv://pjuliandvargas:0S1fAYbY08bXqijB@cluster0.sa9c5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     autoDeploy: true
     branch: main
-
-  - type: private
-    name: my-mongodb
-    env: mongodb
-    plan: free
-    disk:
-      size: 10GB
-

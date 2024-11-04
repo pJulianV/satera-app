@@ -1,0 +1,23 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestión de Medicamentos</h1>
+    <form id="medicamentoForm">
+        <input type="text" id="nombreMedicamento" placeholder="Nombre del Medicamento" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <input type="number" id="unidadesRestantes" placeholder="Unidades Restantes" required>
+        <button type="submit">Agregar Medicamento</button>
+    </form>
+
+    <ul id="medicamentosList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
